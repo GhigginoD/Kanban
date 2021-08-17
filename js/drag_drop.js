@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#lista_to_do li,#lista_in_progress li').draggable({
+    $('#lista_to_do li,#lista_in_progress li, #lista_done').draggable({
         helper: 'clone', 
         revert: 'invalid',
         
